@@ -29,7 +29,7 @@ function findCountries(event) {
       }
     });
   }
-  list.innerHTML = '';
+  list.innerHTML = '';  
 }
 
 input.addEventListener('input', debounce(findCountries, 500));
